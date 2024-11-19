@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    list-style: none; 
+}
+:root{
+    --main-bg-color:#1e90ff;
+    --font-color:#666666;
+    --font-size:18px;
+    --h1-size:48px;
+    --primary-color: #dc143c;
+
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 30px 1px rgb(232, 232, 232);
+}
+
+header .header_links ul{
+display: flex;
+gap: 40px;
+font-size: var(--font-size);
+list-style: none;
+
+}
+header .header_links ul li a{
+    font-size: var(--font-size);
+    font-weight: 600;
+    color: var(--font-color);
+}
+header .header_links ul li a:hover{
+    border: 3px solid gold;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+}
+.container .container_text h1{
+    width: 450px;
+font-size: var(--h1-size);
+color: var(--font-color);
+margin-top: 100px;
+}
+.container .container_text p{
+    font-size: var(--font-size);
+    color: #666666;
+    margin-top: 100px;width: 450px;
+
+}
+
+.box{
+    width: 100%;
+    height: auto;
+    padding: 50px 10%;
+display: flex;
+gap: 80px;}
+.box h1{
+    width: 450px;
+    font-size: var(--h1-size);
+    margin-top: 150px;
+    color: var(--font-color);
+}
+.box p{
+    width: 450px;
+    color: var(--font-color);
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.items a{
+    color: #1e90ff;
+    font-size: 22px;
+}
+
+.items{
+    width: 100%;
+    height: auto;
+    padding: 50px 10%;
+display: flex;
+gap: 80px;}
+.items .items_text h1{
+    font-size: var(--h1-size);
+    margin-top: 150px;
+    color: var(--font-color);
+}
+.items .items_text p{
+    width: 450px;
+    color: var(--font-color);
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.items .items_text a{
+    color: #1e90ff;
+    font-size: 22px;
+}
+.cards_blog{
+    width: 100%;
+    height: auto;
+    padding: 50px 10%;
+    position: relative;
+}
+.cards_blog .h1{
+    position: absolute;
+    left: 270px;
+}
+
+.cards_blog .cards{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+}
+
+
+.cards_blog .cards .card{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    box-shadow: 0 0 40px 2px rgb(223, 223, 223);
+}
+.cards_blog .cards .card img{
+    width: 300px;
+}
+.cards_blog .cards .card .card-text{
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    padding: 20px;
+   position: absolute;
+   bottom: 30px;
+   left: 25px;
+}
+.cards_blog .cards .card .card-text h1{
+    font-size: 22px;
+}
+.cards_blog .cards .card .card-text p{
+    margin-top: 25px;
+}
+
+.learning{
+    width: 100%;
+    height: 300px;
+    background-color: #eeeeee;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learning .learning_text h1{
+    font-size: 50px;
+}
+.learning .learning_text p{
+    width: 550px;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.learning .learning_login{
+    width: 420px;
+    height: 42px;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 10px 10px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.learning .learning_login input{
+    width: 350px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.learning .learning_login button{
+   width: 150px;
+   background-color: var(--main-bg-color);
+   border: none;
+   color: #fff;
+   border-radius: 0 10px 10px 0;
+}
+
+footer{
+    
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+footer .link{
+    line-height: 2.5;
+}
+
+footer .link ul li{
+    color: var(--font-color);
+}
+footer .link .icon{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+footer .link .icon i{
+    color: #1e90ff;
+}
